@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4701C2C1-112A-437F-B15B-151350D810E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoConsoleApp", "src\DemoConsoleApp\DemoConsoleApp.csproj", "{116AD286-3CE9-45DB-89A2-D34979062EAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{116AD286-3CE9-45DB-89A2-D34979062EAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{116AD286-3CE9-45DB-89A2-D34979062EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{116AD286-3CE9-45DB-89A2-D34979062EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{116AD286-3CE9-45DB-89A2-D34979062EAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{116AD286-3CE9-45DB-89A2-D34979062EAF} = {4701C2C1-112A-437F-B15B-151350D810E3}
+	EndGlobalSection
+EndGlobal
