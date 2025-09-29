@@ -30,8 +30,5 @@ class Program
             _ => 0
         };
         Console.WriteLine($"Day mapped to number: {day}");
-
-        string? testNullable = null;
-        Console.WriteLine(testNullable.Length);
     }
 }
