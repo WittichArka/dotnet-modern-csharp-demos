@@ -27,7 +27,7 @@ services:
       - ASPNETCORE_ENVIRONMENT=Development
       - ConnectionStrings__DefaultConnection=Host=postgres;Port=5432;Database=todo_db;Username=todo_user;Password=todo_pass
     ports:
-      - "5000:80"
+      - "5241:5241"
     tty: true
 
 volumes:

@@ -11,6 +11,13 @@ builder.Services.AddDbContext<TodoContext>(opt =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.WebHost.ConfigureKestrel(options =>
+{
+    //options.ListenAnyIP(80); // Pour HTTP
+    options.ListenAnyIP(5241);
+});
+
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
